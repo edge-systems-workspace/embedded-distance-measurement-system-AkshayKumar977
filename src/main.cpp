@@ -43,9 +43,10 @@ void loop() {
     delayMicroseconds(2);
     // Set TRIG LOW for 2 microseconds
 
-    // TODO 10:
+    digitalWrite(trigPin,HIGH);
+    delayMicroseconds(10);
     // Send 10 microsecond pulse on TRIG
-
+     digitalWrite(trigPin,LOW);
     // TODO 11:
     // Measure pulse duration on ECHO using pulseIn()
 
