@@ -2,15 +2,15 @@
 /**
  * @file main.cpp
  * @brief Embedded Distance Measurement using Ultrasonic Sensor
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author AKSHAY KUMAR
+ * @date 2026-01-16
  *
  * @details
  * Measures distance using HC-SR04 ultrasonic sensor
  * and displays structured output via Serial Monitor.
  */
 
- // TODO 1:
+ int trigPin = 9;
  // Define TRIG pin (Use pin 9)
 
  // TODO 2:
