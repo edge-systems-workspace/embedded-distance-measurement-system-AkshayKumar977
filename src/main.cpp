@@ -16,10 +16,10 @@
  int echoPin = 10;
  // Define ECHO pin (Use pin 10)
 
- // TODO 3:
+ long duration = 0;
  // Create variable to store duration
 
- // TODO 4:
+ long distance = 0;
  // Create variable to store calculated distance
 
 void setup() {
