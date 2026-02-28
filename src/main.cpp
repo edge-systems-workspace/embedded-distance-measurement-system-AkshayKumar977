@@ -13,7 +13,7 @@
  int trigPin = 9;
  // Define TRIG pin (Use pin 9)
 
- // TODO 2:
+ int echoPin = 10;
  // Define ECHO pin (Use pin 10)
 
  // TODO 3:
