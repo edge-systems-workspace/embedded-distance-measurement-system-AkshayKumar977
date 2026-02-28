@@ -24,16 +24,16 @@
 
 void setup() {
 
-    // TODO 5:
+    Serial.begin(9600);
     // Initialize Serial communication (9600 baud rate)
 
-    // TODO 6:
+    pinMode(trigPin,OUTPUT);
     // Configure TRIG as OUTPUT
 
-    // TODO 7:
+    pinMode(echoPin,INPUT);
     // Configure ECHO as INPUT
 
-    // TODO 8:
+    Serial.println("Ultrasonic Distance Measurement System Initialized");
     // Print system initialization message
 }
 
