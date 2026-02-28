@@ -39,7 +39,8 @@ void setup() {
 
 void loop() {
 
-    // TODO 9:
+    digitalWrite(trigPin,LOW);
+    delayMicroseconds(2);
     // Set TRIG LOW for 2 microseconds
 
     // TODO 10:
